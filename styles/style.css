@@ -39,23 +39,153 @@ nav a {
 /*details information*/
 .header {
   background-color: #f7e4d6;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .detail {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
 }
 .information {
+  max-width: 500px;
 }
 .infotitle1 {
   color: #474747;
-  font-size: 30px;
+  font-size: 45px;
+  margin-bottom: 0;
 }
 .name1 {
-  font-size: 48px;
+  font-size: 85px;
+  margin-top: 5px;
+  margin-bottom: 0;
 }
 .imgdetails {
   width: 500px;
+}
+.decriptionDetails {
+  margin-bottom: 30px;
+}
+/* Main section */
+
+/* About Section css  */
+.about-section {
+  max-width: 1140px;
+  text-align: center;
+  background-color: #f7e4d6;
+  margin: 130px auto;
+  border-radius: 20px;
+  padding: 80px 130px;
+}
+.about-title {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+.about-details {
+  font-size: 20px;
+}
+.personal-contact {
+  display: flex;
+  justify-content: space-between;
+}
+.personal-details h3 {
+  color: #474747;
+  font-size: 25px;
+}
+.personal-details h2 {
+  color: black;
+  font-size: 30px;
+}
+/* <!-- What i Do Section --> */
+.What-do-section {
+  max-width: 1140px;
+  margin: 130px auto;
+  align-items: center;
+  background-color: #f7e4d6;
+  padding: 130px;
+  border-radius: 20px;
+}
+.what-do-title {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+.what-do-details {
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+.do-section {
+  text-align: center;
+}
+.knowing-details {
+  display: flex;
+  justify-content: space-between;
+}
+.knowing-peragraph {
+  max-width: 200px;
+}
+/* <!-- Resume summery section --> */
+.resume-summary {
+  max-width: 1140px;
+  margin: 130px auto;
+  align-items: center;
+  padding: 130px;
+  border-radius: 20px;
+  background-color: #f7e4d6;
+}
+.resume-title {
+  text-align: center;
+  font-size: 50px;
+}
+.resume-summery1 {
+  display: flex;
+  justify-content: space-between;
+}
+.educatin-ex {
+  color: #474747;
+}
+.education-details1 {
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+.education-details2 {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.education-details3 {
+  max-width: 600px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.second {
+  margin: 30px 450px;
+}
+/* footer section */
+.footer {
+  max-width: 1140px;
+  display: flex;
+  background-color: #f7e4d6;
+  margin: 0 auto;
+  padding: 130px;
+  border-radius: 20px;
+}
+.letsconnect-title {
+  font-size: 35px;
+}
+.contact input,
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 12px;
+  border-radius: 20px;
+  border: 0;
+  width: 100%;
+}
+.footer-details {
+  width: 500px;
+}
+.letsconnect {
+  margin-right: 250px;
 }
